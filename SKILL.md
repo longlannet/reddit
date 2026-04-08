@@ -1,6 +1,25 @@
 ---
 name: reddit
 description: Read and search Reddit posts and comments via rdt-cli. Use when the user wants Reddit discussions, subreddit results, post details, comment threads, real user experiences, bug reports, provider reviews, or community feedback.
+homepage: https://github.com/longlannet/reddit
+metadata:
+  {
+    "openclaw":
+      {
+        "emoji": "👽",
+        "requires": { "bins": ["rdt"] },
+        "install":
+          [
+            {
+              "id": "pip-rdt-cli",
+              "kind": "python",
+              "package": "rdt-cli",
+              "bins": ["rdt"],
+              "label": "Install rdt-cli (python)",
+            },
+          ],
+      },
+  }
 ---
 
 # Reddit
