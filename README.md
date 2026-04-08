@@ -1,27 +1,27 @@
 # reddit
 
-Reddit reading and search.
+面向 OpenClaw 的 Reddit 搜索与阅读 skill。
 
-## What it does
+## 它能做什么
 
-- search Reddit posts
-- read post bodies and comments
-- inspect subreddits, hot posts, and user feeds
-- surface real user feedback, bug reports, and workarounds
+- 搜索 Reddit 帖子
+- 阅读帖子正文与评论
+- 查看 subreddit、热门内容与用户 feed
+- 获取真实用户反馈、故障讨论与绕坑经验
 
-## Install
+## 安装
 
 ```bash
 bash scripts/install.sh
 ```
 
-## Validate
+## 校验
 
 ```bash
 bash scripts/check.sh
 ```
 
-## Quick commands
+## 常用命令
 
 ```bash
 /root/.openclaw/workspace/skills/reddit/.venv/bin/rdt search "netcup review"
